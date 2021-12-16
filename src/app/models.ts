@@ -37,6 +37,7 @@ interface Publishers{
 interface Rating{
   id: number;
   count: number;
+  title:string;
 }
 
 interface Screenshots {

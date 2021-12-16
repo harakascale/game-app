@@ -2,7 +2,7 @@
   <div class="game-banner">
     <img
       class="game-banner-img"
-      src="{{ game.background_image }}"
+      src="{{game.background_image}}"
       alt="background image"
       />
   </div>
@@ -39,8 +39,9 @@
           </a>
         </div>
       </div>
-      <!-- here will go tabs -->
-      <app-game-tabs></app-game-tabs>
+
+      <app-game-tabs [game]="game"></app-game-tabs>
     </div>
   </div>
 </div>
+
